@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../Assets/Montserrat.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(../../Assets/Fraunces.ttf);
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  /* Neutral */
+  --v-dark-blue: hsl(212, 21%, 14%);
+  --gray-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  
+  /* Font */
+  --body: normal 500 14px 'Montserrat', monospace;
+  
+  /* Image Aspect Ratios */
+  --mobile-aspect: calc(240 / 343 * 100%); 
+  --desktop-aspect: calc(450 / 300 * 100%)
+}
+
+
+.add-to-cart {
+  grid-column: 1/3;
+  background-color: var(--dark-cyan);
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: .75rem 0;
+}
+
+.add-to-cart:hover {
+  cursor: pointer;
+  background-color: var(--v-dark-blue);
+}
+.add-to-cart:focus {
+  background-color: var(--v-dark-blue);
+}
+
+.description-text {
+  color: var(--gray-blue);
+  line-height: 160%;
+}
+
+.content-container {
+  display: grid;
+  width: 80%;
+  max-width: 400px;
+  grid-template-columns: 1fr;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid black;
+  font-family: 'Montserrat';
+}
+
+.cta--price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.current-price {
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--dark-cyan)
+}
+
+.image-wrapper {
+  padding-top: var(--mobile-aspect);
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-color: blue;
+}
+
+.image {
+  top: 0;
+  left: 0;
+  // transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
+  // display: block;
+}
+
+.previous-price {
+  text-decoration: line-through;
+  color: var(--gray-blue);
+}
+
+.screen-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.subtitle {
+  text-transform: uppercase;
+  color: var(--gray-blue);
+  letter-spacing: 4px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 75%;
+  padding: 1.5rem 0;
+}
+
+.title {
+  color: var(--v-dark-blue);
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .content-container {
+    grid-template-columns: 1fr 1fr;
+    max-width: 950px;
+  }
+  .image-wrapper {
+    padding-top: var(--desktop-aspect);
+    // background-image: url("../../Assets/image-product-desktop.avif");
+  }
+  .text {
+    padding: 1.6rem 0;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 2.25rem;
+  }
+}
