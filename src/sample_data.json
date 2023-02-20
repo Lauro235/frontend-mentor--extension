@@ -1,0 +1,88 @@
+{
+  "cards": [
+    {
+      "Product Name": "Divine Obsession Eau de Parfum",
+      "Description": "An opulent floral scent with notes of tuberose, jasmine, and ylang-ylang. The fragrance is both feminine and mysterious, perfect for an evening out.",
+      "Current Price": 150,
+      "Previous Price": 175
+    },
+    {
+      "Product Name": "Tempestuous Temptation Eau de Toilette",
+      "Description": "A fruity and playful scent with hints of mandarin, peach, and raspberry. This fragrance is perfect for a fun and flirty mood.",
+      "Current Price": 50,
+      "Previous Price": 60 
+    },
+    {
+      "Product Name": "Midnight Enchantment Eau de Parfum",
+      "Description": "A sensual and mysterious scent with notes of black orchid, vanilla, and sandalwood. This fragrance is perfect for a night out on the town.",
+      "Current Price": 200,
+      "Previous Price": 225 
+    },
+    {
+      "Product Name": "Enchanted Forest Eau de Toilette",
+      "Description": "A woody and earthy scent with notes of oakmoss, cedarwood, and vetiver. This fragrance is perfect for a day spent in nature.",
+      "Current Price": 75,
+      "Previous Price": 80 
+    },
+    {
+      "Product Name": "Mystic Garden Eau de Parfum",
+      "Description": "A floral and mystical scent with notes of iris, violet, and jasmine. This fragrance is perfect for a romantic evening.",
+      "Current Price": 180,
+      "Previous Price": 200 
+    },
+    {
+      "Product Name": "Golden Goddess Eau de Parfum",
+      "Description": "A luxurious and radiant scent with notes of bergamot, amber, and vanilla. This fragrance is perfect for a night of glamor.",
+      "Current Price": 250,
+      "Previous Price": 275 
+    },
+    {
+      "Product Name": "Ocean Breeze Eau de Toilette",
+      "Description": "A fresh and invigorating scent with notes of sea salt, grapefruit, and lemon. This fragrance is perfect for a day spent by the ocean.",
+      "Current Price": 65,
+      "Previous Price": 70 
+    },
+    {
+      "Product Name": "Velvet Noir Eau de Parfum",
+      "Description": "A bold and sophisticated scent with notes of black pepper, patchouli, and leather. This fragrance is perfect for a night of elegance.",
+      "Current Price": 220,
+      "Previous Price": 240 
+    },
+    {
+      "Product Name": "Arabian Nights Eau de Toilette",
+      "Description": "A spicy and exotic scent with notes of saffron, cardamom, and oud. This fragrance is perfect for a night of adventure.",
+      "Current Price": 90,
+      "Previous Price": 100 
+    },
+    {
+      "Product Name": "Moonlit Gardenia Eau de Parfum",
+      "Description": "A romantic and dreamy scent with notes of gardenia, jasmine, and vanilla. This fragrance is perfect for a night of romance.",
+      "Current Price": 190,
+      "Previous Price": 210 
+    },
+    {
+      "Product Name": "Citrus Sunshine Eau de Toilette",
+      "Description": "A zesty and refreshing scent with notes of lemon, mandarin, and grapefruit. This fragrance is perfect for a day spent in the sun.",
+      "Current Price": 55,
+      "Previous Price": 60 
+    },
+    {
+      "Product Name": "Gothic Rose Eau de Parfum",
+      "Description": "A dark and seductive scent with notes of rose, patchouli, and blackcurrant. This fragrance is perfect for a night of mystery.",
+      "Current Price": 230,
+      "Previous Price": 250 
+    },
+    {
+      "Product Name": "Oceanic Escape Eau de Toilette",
+      "Description": "A marine and fresh scent with notes of seaweed, saltwater, and citrus. This fragrance is perfect for a day spent by the sea.",
+      "Current Price": 70,
+      "Previous Price": 75 
+    },
+    {
+      "Product Name": "Desert Mirage Eau de Parfum",
+      "Description": "Description: A warm and spicy scent with notes of saffron, amber, and sandalwood. This fragrance is perfect",
+      "Current Price": 110,
+      "Previous Price": 149 
+    }
+  ]
+}

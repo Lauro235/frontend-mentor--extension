@@ -23,6 +23,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react-hooks/exhaustive-deps': 0,
+    'react/require-default-props': 0,
     'no-console': 0,
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
   },
