@@ -104,6 +104,7 @@
 
 .screen-container {
   height: 100vh;
+  height: -webkit-available-fill;
   display: flex;
   justify-content: center;
   align-items: center;
