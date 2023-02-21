@@ -1,5 +1,6 @@
 import './_Cards.scss';
 import { v4 as uuidv4 } from 'uuid';
+import { useRef } from 'react';
 import useBrowserWidth from '../../Hooks/useBrowserWidth';
 import mob from '../../Assets/image-product-mobile.avif';
 import large from '../../Assets/image-product-desktop.avif';
@@ -12,6 +13,8 @@ function Cards({ cardsPerPage }: CardProps) {
 
   // eslint-disable-next-line @typescript-eslint/no-shadow
   function mapCards(cards: ProductsArray) {
+    // const cardRefs = useRef([]);
+
     return cards.map((card) => {
       return (
         <div key={uuidv4()} className="screen-container">
