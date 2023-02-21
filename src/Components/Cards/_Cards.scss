@@ -104,11 +104,9 @@
 
 .screen-container {
   height: 100vh;
-  // height: fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 
@@ -147,7 +145,6 @@
   }
   .image-wrapper {
     padding-top: var(--desktop-aspect);
-    // background-image: url("../../Assets/image-product-desktop.avif");
   }
   .screen-container {
     height: 100vh;

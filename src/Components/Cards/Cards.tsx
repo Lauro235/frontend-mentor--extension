@@ -4,13 +4,15 @@ import useBrowserWidth from '../../Hooks/useBrowserWidth';
 import mob from '../../Assets/image-product-mobile.avif';
 import large from '../../Assets/image-product-desktop.avif';
 import sample from '../../sample_data.json';
+import { CardProps, ProductsArray } from '../../Types/Types';
 
-function Cards() {
+function Cards({ cardsPerPage }: CardProps) {
   const desktop = useBrowserWidth(800);
   const { cards: mySample } = sample;
 
-  function mapCards() {
-    return mySample.map((card) => {
+  // eslint-disable-next-line @typescript-eslint/no-shadow
+  function mapCards(cards: ProductsArray) {
+    return cards.map((card) => {
       return (
         <div key={uuidv4()} className="screen-container">
           <div className="content-container">
@@ -39,7 +41,9 @@ function Cards() {
     });
   }
 
-  return <div>{mySample ? mapCards() : <h2>No cards available</h2>}</div>;
+  return (
+    <div>{mySample ? mapCards(cardsPerPage) : <h2>No cards available</h2>}</div>
+  );
 }
 
 export default Cards;

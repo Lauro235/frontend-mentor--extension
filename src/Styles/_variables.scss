@@ -1,0 +1,16 @@
+  /* Colors */
+
+  /* Primary */
+  $dark-cyan: hsl(158, 36%, 37%);
+  $cream: hsl(30, 38%, 92%);
+  /* Neutral */
+  $v-dark-blue: hsl(212, 21%, 14%);
+  $gray-blue: hsl(228, 12%, 48%);
+  $white: hsl(0, 0%, 100%);
+  
+  /* Font */
+  $body-text: normal 500 14px 'Montserrat', monospace;
+  
+  /* Image Aspect Ratios */
+  $mobile-aspect: calc(240 / 343 * 100%); 
+  $desktop-aspect: calc(450 / 300 * 100%);
