@@ -5,20 +5,12 @@ function Pagination({ cardsPerPage, totalCards, paginate }: PaginateProps) {
   const pageNumbers = [];
 
   for (let i = 1; i <= Math.ceil(totalCards / cardsPerPage); i++) {
-    console.log('This is total cards: ', totalCards);
-    console.log('This is cards per page: ', cardsPerPage);
-    console.log('This is the index: ', i);
     pageNumbers.push(i);
   }
 
-  // let i = 1;
-  // while (totalCards && cardsPerPage === numOfCards) {
-  //   pageNumbers.push(i);
-  //   i++;
-  // }
-
   return (
     <nav>
+      <div className="opacity" />
       <ul className="navParent">
         {pageNumbers.map((num) => {
           return (

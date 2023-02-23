@@ -53,13 +53,15 @@ function Cards({ cardsPerPage }: CardProps) {
               </div>
             </div>
             {/* <button type="button" /* onClick={() => scroll(i + 1)} > */}
-            <button
-              className="next"
-              type="button"
-              onClick={() => scroll(i + 1)}
-            >
-              Next Card
-            </button>
+            {i !== cardsPerPage.length - 1 && (
+              <button
+                className="next"
+                type="button"
+                onClick={() => scroll(i + 1)}
+              >
+                Next Card
+              </button>
+            )}
           </div>
         );
       })}
