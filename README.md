@@ -1,6 +1,8 @@
 # frontend-mentor--extension
 This project extends the product preview card task
 
+## [See the project](https://frontend-mentor-extension.vercel.app/)
+
 ## General Challenge
 
 I wanted to take a card design that I had completed for Frontend Mentor and apply it to React. I wanted to use it as an opportunity to learn about pagination and scroll techniques.
