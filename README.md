@@ -17,3 +17,10 @@ I would love to hear from you if you think there are any performance optimisatio
 
 Thanks so much for reading and supporting,
 Lorentz
+
+## Run the code
+
+Use node version 20.15.1
+`nvm use 20.15.1`
+`npm i`
+to run the program - `npm run dev`
